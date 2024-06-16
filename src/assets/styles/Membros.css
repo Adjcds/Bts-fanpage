@@ -1,0 +1,41 @@
+body {
+  background-color: #b791cf; /* 70% lilás */
+  color: #000; /* cor do texto padrão */
+}
+
+.membros {
+  background-color: #b791cf; /* 70% lilás */
+}
+
+.membros-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .membro {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .membro img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .membro h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+
+
+
+
+

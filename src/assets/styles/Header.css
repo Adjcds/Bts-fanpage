@@ -1,0 +1,97 @@
+/* Header.css */
+
+/* Estilos para o header */
+.header {
+    background-color: #b791cf;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px; /* Tamanho inicial do ícone */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px;
+  }
+  
+  .logo h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 60px;
+  }
+  
+  .menu {
+    position: absolute;
+    top: calc(100% + 10px); /* Aparece abaixo do header */
+    right: 20px; /* Posiciona no canto direito */
+    background-color: #b791cf;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px;
+    display: none; /* Inicia oculto */
+  }
+  
+  .menu.aberto {
+    display: flex; /* Mostra o menu ao ser aberto */
+    flex-direction: column; /* Organiza os itens verticalmente */
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: row; /* Define o layout dos elementos como linha */
+
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .logo img {
+      width: 40px;
+    }
+  
+    .menu-toggle {
+      display: block; /* Mostra o botão de toggle */
+    }
+  
+    .menu {
+      top: calc(100% + 10px); /* Aparece abaixo do header */
+      right: 20px; /* Posiciona no canto direito */
+      padding: 10px;
+    }
+  }
+  

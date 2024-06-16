@@ -1,0 +1,24 @@
+
+.video {
+    background-color: #7e67b5; /* Cor de fundo lilás */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+    text-align: center; /* Centralizar texto */
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center; /* Centralizar conteúdo horizontalmente */
+    align-items: center; /* Centralizar conteúdo verticalmente */
+    margin-top: 20px;
+  }
+  
+  .video h2 {
+    margin-bottom: 20px;
+  }
+  
+  .video-container iframe {
+    width: 100%; /* Ajustar largura do iframe */
+    max-width: 800px; /* Largura máxima do iframe */
+  }
+  

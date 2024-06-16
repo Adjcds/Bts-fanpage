@@ -1,0 +1,290 @@
+/* src/assets/styles/styles.css */
+
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para o header */
+  
+  header {
+    background-color: #b791cf;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para o hero (banner principal) */
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b791cf;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #b791cf;
+  }
+  
+  /* Estilos para a seção de membros */
+  
+  .membros {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .membros h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .membros-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .membro {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .membro img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .membro h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .membro p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para a seção de música */
+  
+  .musica {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .album-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .album {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .album img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .album h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .album p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para a seção de cultura */
+  
+  .cultura {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .cultura h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .cultura-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .cultura-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .cultura-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para a seção de contato */
+  
+  .contato {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contato label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .contato input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .contato button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b791cf;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .contato button:hover {
+    background-color: #b791cf;
+  }
+  
+  /* Estilos para o rodapé */
+  
+  footer {
+    background-color: #b791cf;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
