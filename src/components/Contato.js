@@ -9,7 +9,7 @@ const Contato = () => {
         <input type="text" id="nome" name="nome" required />
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" name="email" required />
-      </form> {/* Adicione a tag de fechamento aqui */}
+      </form> 
     </section>
   );
 }
